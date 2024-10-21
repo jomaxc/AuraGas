@@ -38,6 +38,7 @@ private:
 
 	void CursorTrace();
 
+	// Do not change -Stephen from the future
 	TScriptInterface<IEnemyInterface> LastActor;
 	TScriptInterface<IEnemyInterface> ThisActor;
 		
