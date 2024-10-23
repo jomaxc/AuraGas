@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Udemy\\AuraGAS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Player\\AuraPlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\Player\\AuraPlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,6 +29,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Player\\AuraPlayerController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\Player\\AuraPlayerController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Interaction\\EnemyInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\Interaction\\EnemyInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +55,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuraAttributeSet.cpp",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
+              "RelativeDocumentMoniker": "Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
+              "RelativeToolTip": "Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T18:55:37.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuraAttributeSet.h",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
+              "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
+              "RelativeToolTip": "Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T18:55:37.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuraAbilitySystemComponent.cpp",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
+              "RelativeDocumentMoniker": "Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
+              "RelativeToolTip": "Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T18:47:10.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuraAbilitySystemComponent.h",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
+              "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
+              "RelativeToolTip": "Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T18:47:10.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyInterface.cpp",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
+              "RelativeDocumentMoniker": "Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
+              "RelativeToolTip": "Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T16:03:16.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyInterface.h",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
+              "RelativeDocumentMoniker": "Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
+              "RelativeToolTip": "Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T16:03:16.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuraPlayerController.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Player\\AuraPlayerController.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\Player\\AuraPlayerController.cpp",
@@ -38,12 +135,11 @@
               "RelativeToolTip": "Source\\Aura\\Private\\Player\\AuraPlayerController.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-17T20:23:48.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T20:23:48.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AuraPlayerController.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Player\\AuraPlayerController.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\Player\\AuraPlayerController.h",
@@ -55,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AuraCharacterBase.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AuraCharacterBase.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\AuraCharacterBase.cpp",
@@ -66,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AuraCharacterBase.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AuraCharacterBase.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\AuraCharacterBase.h",
