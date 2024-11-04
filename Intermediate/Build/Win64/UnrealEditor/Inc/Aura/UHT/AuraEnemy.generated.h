@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_AuraEnemy_generated_h
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraEnemy(); \
 	friend struct Z_Construct_UClass_AAuraEnemy_Statics; \
@@ -24,7 +24,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AAuraEnemy*>(this); }
 
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AAuraEnemy(AAuraEnemy&&); \
@@ -36,12 +36,12 @@ public: \
 	NO_API virtual ~AAuraEnemy();
 
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_13_PROLOG
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_16_GENERATED_BODY \
+#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_16_PROLOG
+#define FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Udemy_AuraGAS_Source_Aura_Public_Character_AuraEnemy_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

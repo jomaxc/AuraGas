@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Udemy\\AuraGAS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -41,6 +53,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05F88457-A6B7-3B29-8535-FC8B364CEB44}|Intermediate\\ProjectFiles\\Aura.vcxproj|solutionrelative:Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,6 +75,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AttributeInfo.h",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h",
+              "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h",
+              "RelativeToolTip": "Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T15:14:07.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MMC_MaxMana.cpp",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.cpp",
+              "RelativeDocumentMoniker": "Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.cpp",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.cpp",
+              "RelativeToolTip": "Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-25T20:27:13.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MMC_MaxMana.h",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.h",
+              "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.h",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.h",
+              "RelativeToolTip": "Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxMana.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T20:27:12.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MMC_MaxHealth.cpp",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.cpp",
+              "RelativeDocumentMoniker": "Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.cpp",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.cpp",
+              "RelativeToolTip": "Source\\Aura\\Private\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-25T19:57:01.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MMC_MaxHealth.h",
+              "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.h",
+              "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.h",
+              "ToolTip": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.h",
+              "RelativeToolTip": "Source\\Aura\\Public\\AbilitySystem\\ModMagCalc\\MMC_MaxHealth.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T19:57:01.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuraAttributeSet.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
@@ -62,12 +143,11 @@
               "RelativeToolTip": "Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T18:55:37.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T18:55:37.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AuraAttributeSet.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
@@ -79,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AuraAbilitySystemComponent.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
@@ -91,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AuraAbilitySystemComponent.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
@@ -103,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EnemyInterface.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
@@ -115,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "EnemyInterface.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
@@ -127,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AuraPlayerController.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\Player\\AuraPlayerController.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\Player\\AuraPlayerController.cpp",
@@ -139,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AuraPlayerController.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\Player\\AuraPlayerController.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\Player\\AuraPlayerController.h",
@@ -151,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AuraCharacterBase.cpp",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Private\\AuraCharacterBase.cpp",
               "RelativeDocumentMoniker": "Source\\Aura\\Private\\AuraCharacterBase.cpp",
@@ -162,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AuraCharacterBase.h",
               "DocumentMoniker": "C:\\Udemy\\AuraGAS\\Source\\Aura\\Public\\AuraCharacterBase.h",
               "RelativeDocumentMoniker": "Source\\Aura\\Public\\AuraCharacterBase.h",
