@@ -42,9 +42,20 @@ public:
 	virtual int32 GetPlayerLevel_Implementation() override;
 	/** end Combat Interface */
 
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TObjectPtr<UNiagaraComponent> LevelUpNiagaraComponent;
+
+	// The bool variable itself
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="My Variables")
+	bool bInShockLoop;
+
+	// Getter function
+	UFUNCTION(BlueprintPure, Category="My Variables")
+	bool GetInShockLoop() const;
+
+	// Setter function
+	UFUNCTION(BlueprintCallable, Category="My Variables")
+	void SetInShockLoop(bool NewValue);
 	
 private:
 	UPROPERTY(VisibleAnywhere)

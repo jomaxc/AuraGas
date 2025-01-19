@@ -157,6 +157,16 @@ int32 AAuraCharacter::GetPlayerLevel_Implementation()
 	return AuraPlayerState->GetPlayerLevel();
 }
 
+bool AAuraCharacter::GetInShockLoop() const
+{
+	return bInShockLoop;
+}
+
+void AAuraCharacter::SetInShockLoop(bool NewValue)
+{
+	bInShockLoop = NewValue;
+}
+
 void AAuraCharacter::InitAbilityActorInfo()
 {
 	AAuraPlayerState* AuraPlayerState = GetPlayerState<AAuraPlayerState>();
