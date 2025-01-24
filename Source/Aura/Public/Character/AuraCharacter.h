@@ -45,6 +45,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TObjectPtr<UNiagaraComponent> LevelUpNiagaraComponent;
 
+	virtual void OnRep_Stunned() override;
+
 	// The bool variable itself
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="My Variables")
 	bool bInShockLoop;
