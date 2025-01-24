@@ -46,6 +46,7 @@ public:
 	TObjectPtr<UNiagaraComponent> LevelUpNiagaraComponent;
 
 	virtual void OnRep_Stunned() override;
+	virtual void OnRep_Burned() override;
 
 	// The bool variable itself
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="My Variables")
