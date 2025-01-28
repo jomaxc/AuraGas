@@ -209,8 +209,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_Fire, GameplayTags.Attributes_Resistance_Fire);
 
 	/*
-	* Map of Damage Types to Debuffs
-	*/
+	 * Map of Damage Types to Debuffs
+	 */
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Arcane, GameplayTags.Debuff_Arcane);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Lightning, GameplayTags.Debuff_Stun);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Physical, GameplayTags.Debuff_Physical);
@@ -239,6 +239,10 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Abilities.Summon"),
 		FString("Summon Ability Tag")
 		);
+
+	/*
+	 * Offensive Spells
+	 */
 	GameplayTags.Abilities_Fire_FireBolt = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Abilities.Fire.FireBolt"),
 		FString("FireBolt Ability Tag")
@@ -247,10 +251,14 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 			FName("Abilities.Lightning.Electrocute"),
 			FString("Electrocute Ability Tag")
 			);
+	GameplayTags.Abilities_Arcane_ArcaneShards = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Abilities.Arcane.ArcaneShards"),
+		FString("Arcane Shards Ability Tag")
+		);
 
 	/*
-	* Passive Spells
-	*/
+	 * Passive Spells
+	 */
 	GameplayTags.Abilities_Passive_LifeSiphon = UGameplayTagsManager::Get().AddNativeGameplayTag(
 			FName("Abilities.Passive.LifeSiphon"),
 			FString("Life Siphon")
@@ -298,8 +306,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		);
 	
 	/*
-	* Cooldown
-	*/
+	 * Cooldown
+	 */
 		GameplayTags.Cooldown_Fire_FireBolt = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Cooldown.Fire.FireBolt"),
 		FString("FireBolt Cooldown Tag")
