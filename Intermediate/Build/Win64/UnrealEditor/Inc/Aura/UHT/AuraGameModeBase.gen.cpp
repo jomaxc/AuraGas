@@ -12,8 +12,11 @@ void EmptyLinkFunctionForGeneratedCodeAuraGameModeBase() {}
 // Begin Cross Module References
 AURA_API UClass* Z_Construct_UClass_AAuraGameModeBase();
 AURA_API UClass* Z_Construct_UClass_AAuraGameModeBase_NoRegister();
+AURA_API UClass* Z_Construct_UClass_UAbilityInfo_NoRegister();
 AURA_API UClass* Z_Construct_UClass_UCharacterClassInfo_NoRegister();
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
+ENGINE_API UClass* Z_Construct_UClass_USaveGame_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Aura();
 // End Cross Module References
 
@@ -42,8 +45,18 @@ struct Z_Construct_UClass_AAuraGameModeBase_Statics
 		{ "Category", "Character Class Defaults" },
 		{ "ModuleRelativePath", "Public/Game/AuraGameModeBase.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AbilityInfo_MetaData[] = {
+		{ "Category", "Ability Info" },
+		{ "ModuleRelativePath", "Public/Game/AuraGameModeBase.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LoadScreenSaveGameClass_MetaData[] = {
+		{ "Category", "AuraGameModeBase" },
+		{ "ModuleRelativePath", "Public/Game/AuraGameModeBase.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CharacterClassInfo;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_AbilityInfo;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_LoadScreenSaveGameClass;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -52,8 +65,12 @@ struct Z_Construct_UClass_AAuraGameModeBase_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAuraGameModeBase_Statics::NewProp_CharacterClassInfo = { "CharacterClassInfo", nullptr, (EPropertyFlags)0x0114000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AAuraGameModeBase, CharacterClassInfo), Z_Construct_UClass_UCharacterClassInfo_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CharacterClassInfo_MetaData), NewProp_CharacterClassInfo_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAuraGameModeBase_Statics::NewProp_AbilityInfo = { "AbilityInfo", nullptr, (EPropertyFlags)0x0114000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AAuraGameModeBase, AbilityInfo), Z_Construct_UClass_UAbilityInfo_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AbilityInfo_MetaData), NewProp_AbilityInfo_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AAuraGameModeBase_Statics::NewProp_LoadScreenSaveGameClass = { "LoadScreenSaveGameClass", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AAuraGameModeBase, LoadScreenSaveGameClass), Z_Construct_UClass_UClass, Z_Construct_UClass_USaveGame_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LoadScreenSaveGameClass_MetaData), NewProp_LoadScreenSaveGameClass_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAuraGameModeBase_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAuraGameModeBase_Statics::NewProp_CharacterClassInfo,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAuraGameModeBase_Statics::NewProp_AbilityInfo,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAuraGameModeBase_Statics::NewProp_LoadScreenSaveGameClass,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AAuraGameModeBase_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AAuraGameModeBase_Statics::DependentSingletons[])() = {
@@ -94,14 +111,14 @@ AAuraGameModeBase::~AAuraGameModeBase() {}
 // End Class AAuraGameModeBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Udemy_AuraGAS_Source_Aura_Public_Game_AuraGameModeBase_h_Statics
+struct Z_CompiledInDeferFile_FID_Udemy_AuraGas_Source_Aura_Public_Game_AuraGameModeBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraGameModeBase, AAuraGameModeBase::StaticClass, TEXT("AAuraGameModeBase"), &Z_Registration_Info_UClass_AAuraGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraGameModeBase), 3587417949U) },
+		{ Z_Construct_UClass_AAuraGameModeBase, AAuraGameModeBase::StaticClass, TEXT("AAuraGameModeBase"), &Z_Registration_Info_UClass_AAuraGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraGameModeBase), 955675901U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Udemy_AuraGAS_Source_Aura_Public_Game_AuraGameModeBase_h_1666998894(TEXT("/Script/Aura"),
-	Z_CompiledInDeferFile_FID_Udemy_AuraGAS_Source_Aura_Public_Game_AuraGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Udemy_AuraGAS_Source_Aura_Public_Game_AuraGameModeBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Udemy_AuraGas_Source_Aura_Public_Game_AuraGameModeBase_h_2701450478(TEXT("/Script/Aura"),
+	Z_CompiledInDeferFile_FID_Udemy_AuraGas_Source_Aura_Public_Game_AuraGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Udemy_AuraGas_Source_Aura_Public_Game_AuraGameModeBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

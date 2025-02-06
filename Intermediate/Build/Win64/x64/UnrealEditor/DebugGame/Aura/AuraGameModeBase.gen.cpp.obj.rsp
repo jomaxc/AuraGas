@@ -1,11 +1,11 @@
-"C:\Udemy\AuraGAS\Intermediate\Build\Win64\UnrealEditor\Inc\Aura\UHT\AuraGameModeBase.gen.cpp"
-/FI"C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h"
-/FI"C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Definitions.Aura.h"
-/Yu"C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h"
-/Fp"C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraGameModeBase.gen.cpp.obj"
-/sourceDependencies "C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraGameModeBase.gen.cpp.dep.json"
-@"C:\Udemy\AuraGAS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.Shared.rsp"
+"C:\Udemy\AuraGas\Intermediate\Build\Win64\UnrealEditor\Inc\Aura\UHT\AuraGameModeBase.gen.cpp"
+/FI"C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h"
+/FI"C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Definitions.Aura.h"
+/Yu"C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h"
+/Fp"C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h.pch"
+/Fo"C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraGameModeBase.gen.cpp.obj"
+/sourceDependencies "C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraGameModeBase.gen.cpp.dep.json"
+@"C:\Udemy\AuraGas\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

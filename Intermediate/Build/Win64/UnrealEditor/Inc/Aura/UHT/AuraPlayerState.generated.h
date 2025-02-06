@@ -14,11 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_AuraPlayerState_generated_h
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnRep_SpellPoints); \
+	DECLARE_FUNCTION(execOnRep_AttributePoints); \
+	DECLARE_FUNCTION(execOnRep_XP); \
 	DECLARE_FUNCTION(execOnRep_Level);
 
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraPlayerState(); \
 	friend struct Z_Construct_UClass_AAuraPlayerState_Statics; \
@@ -30,11 +33,14 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		Level=NETFIELD_REP_START, \
-		NETFIELD_REP_END=Level	}; \
+		XP, \
+		AttributePoints, \
+		SpellPoints, \
+		NETFIELD_REP_END=SpellPoints	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AAuraPlayerState(AAuraPlayerState&&); \
@@ -46,13 +52,13 @@ public: \
 	NO_API virtual ~AAuraPlayerState();
 
 
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_16_PROLOG
-#define FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_GENERATED_BODY \
+#define FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_19_PROLOG
+#define FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_INCLASS_NO_PURE_DECLS \
-	FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h_19_ENHANCED_CONSTRUCTORS \
+	FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_INCLASS_NO_PURE_DECLS \
+	FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -60,7 +66,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AURA_API UClass* StaticClass<class AAuraPlayerState>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Udemy_AuraGAS_Source_Aura_Public_Player_AuraPlayerState_h
+#define CURRENT_FILE_ID FID_Udemy_AuraGas_Source_Aura_Public_Player_AuraPlayerState_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
